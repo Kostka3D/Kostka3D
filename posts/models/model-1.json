@@ -1,0 +1,14 @@
+{"model": {
+  "id": 1,
+  "title": "Raspberry Pi 3A+ Case",
+  "short-desc": "Short desc",
+  "long-desc": "Short desc",
+  "value": "File",
+  "popup": {
+    "menuitem": [
+      {"value": "New", "onclick": "CreateNewDoc()"},
+      {"value": "Open", "onclick": "OpenDoc()"},
+      {"value": "Close", "onclick": "CloseDoc()"}
+    ]
+  }
+}}
