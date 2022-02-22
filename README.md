@@ -53,7 +53,7 @@ You can find me here:<br><br>
 
 ## License
 
-This project is distributed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en).
+This project is licensed under the <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0 License</a>.
 
 
 
