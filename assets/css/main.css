@@ -1852,6 +1852,11 @@ header > p {
   margin: 0 0 2em 0;
 }
 
+.image.othersites {
+  width: 100%;
+  border-radius: 10px;
+}
+
 .image.left {
   float: left;
   margin: 0 2em 2em 0;
@@ -2103,7 +2108,7 @@ ul.special {
   padding-left: 0;
   cursor: default;
   position: relative;
-  margin: -2em 0 4em -2em;
+  margin: -2em 0 0 -2em;
 }
 
 ul.special li {
@@ -2115,6 +2120,7 @@ ul.special li {
   display: inline-block;
   top: 0;
   padding: 2em 0 0 2em;
+  width: 8em;
 }
 
 ul.special li a {
@@ -2130,7 +2136,6 @@ ul.special li a:before {
   display: block;
   text-align: center;
   background: #c1cac5;
-  border-radius: 100%;
   width: 2.25em;
   height: 2.25em;
   line-height: 2.175em;
@@ -2140,10 +2145,6 @@ ul.special li a:before {
 
 ul.special li:hover {
   top: -1em;
-}
-
-ul.special li:hover a:before {
-  background: #b9d2ce;
 }
 
 /* Meta */
@@ -2369,7 +2370,6 @@ table.default thead {
 .icon {
   text-decoration: none;
   position: relative;
-  text-decoration: none;
 }
 
 .icon:before {
@@ -2640,7 +2640,7 @@ body {
   background: #fff;
   border-top: solid 15px #fa682f;
   border-bottom: solid 15px #fa682f;
-  padding: 3em 0 6em 0;
+  padding: 3em 0 3em 0;
 }
 
 /* Sidebar + Content */
