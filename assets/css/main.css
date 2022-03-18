@@ -2002,7 +2002,7 @@ ul.article {
 
 ol.article {
   margin-top: -2.2em;
-  margin-bottom: -1.4em;
+  margin-bottom: 1em;
 }
 
 p.article {
@@ -2886,7 +2886,7 @@ body {
     text-transform: none !important;
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    border-bottom-right-radius: 12px;
+    border-bottom-right-radius: 32px;
   }
 
   #titleBar .toggle:before {
@@ -2896,13 +2896,14 @@ body {
     left: 0;
     top: 0;
     background: #fa682f;
-    width: 44px;
-    height: 44px;
+    width: 80px;
+    height: 80px;
     content: "\f0c9";
     color: #fff;
     text-align: center;
+    padding-top: 18px;
     line-height: 44px;
-    font-size: 20px;
+    font-size: 36px;
   }
 
   #titleBar .toggle:active:before {
@@ -3173,4 +3174,12 @@ body {
   select {
     font-size: 10pt;
   }
+}
+
+#calendar {
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: -0.8em;
+  margin-bottom: 0.2em;
+  /* font-weight: bolder; */
 }
